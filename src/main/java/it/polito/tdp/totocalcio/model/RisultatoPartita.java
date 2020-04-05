@@ -1,6 +1,6 @@
 package it.polito.tdp.totocalcio.model;
 
-public enum RisultatoPartita {
+public enum RisultatoPartita { //enum= enumerazione (non classe)-->può contenere un numero finito di valori (tre in questo caso)
 	UNO, DUE, ICS ;
 	
 	public static RisultatoPartita valueOf(char c) {
